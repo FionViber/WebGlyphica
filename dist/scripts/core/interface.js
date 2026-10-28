@@ -33,21 +33,20 @@ import { UIDef } from '../ui/uiDefinitions.js'
 		global.lootIcons = await Font.fromFile('@/fonts/Loot-Icons-Glyphica.ttf', scalePix(100), {antialias: true})
 		global.evolutionIcons = await Font.fromFile('@/fonts/Evolution-Icons-Glyphica.ttf', scalePix(200), {antialias: true})
 
-		// Non-localized fonts.
+		// Keep the original role-specific Latin faces. Each file is bundled and measured locally.
 		global.timerFont = await Font.fromFile('@/fonts/Monospaced-Numbers.ttf', scalePix(65), {antialias: true, kerning: false})
 		global.critFont = await Font.fromFile('@/fonts/Montserrat-SemiBold.ttf', scalePix(50), {antialias: true})
 		global.typingFontLarge = await Font.fromFile('@/fonts/Montserrat-Regular.ttf', scalePix(35), {antialias: true})
 		global.regularEastAsianLarge = await Font.fromFile('@/fonts/SourceHanSansSC-Normal.ttf', scalePix(40), {antialias: true})
 
-		// Localized fonts.
-		// English
+		// English UI and gameplay roles retain Glyphica's original typography.
 		global.typingFont = await Font.fromFile('@/fonts/Montserrat-Regular.ttf', scalePix(30), {antialias: true})
 		global.typingFontMedium = await Font.fromFile('@/fonts/Montserrat-Regular.ttf', scalePix(27), {antialias: true})
 		global.typingFontSmall = await Font.fromFile('@/fonts/Montserrat-SemiBold.ttf', scalePix(steamDeck ? 27 : 20), {antialias: true})
 		global.grandRegular = await Font.fromFile('@/fonts/NTF-Grand-Regular.ttf', scalePix(65), {antialias: true, kerning: false})
 		global.grandRegularSmall = await Font.fromFile('@/fonts/NTF-Grand-Regular.ttf', scalePix(45), {antialias: true, kerning: false})
 
-		// East Asian
+		// Chinese UI and gameplay text use a bundled Simplified Chinese face explicitly.
 		global.regularEastAsian = await Font.fromFile('@/fonts/SourceHanSansSC-Normal.ttf', scalePix(35), {antialias: true})
 		global.regularEastAsianMedium = await Font.fromFile('@/fonts/SourceHanSansSC-Normal.ttf', scalePix(30), {antialias: true})
 		global.regularEastAsianSmall = await Font.fromFile('@/fonts/SourceHanSansSC-Bold.ttf', scalePix(25), {antialias: true})

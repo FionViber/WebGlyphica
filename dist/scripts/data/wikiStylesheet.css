@@ -46,9 +46,19 @@
 }
 
 @font-face {
-    font-family: "Grand-Regular";
-	size-adjust: 135%;
-    src: url("fonts/NTF-Grand-Regular.ttf");
+    font-family: "Glyphica SC";
+    src: url("./dist/fonts/SourceHanSansSC-Normal.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Glyphica SC";
+    src: url("./dist/fonts/SourceHanSansSC-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
 }
 
 body,
@@ -59,7 +69,10 @@ html {
 }
 
 body {
-	font-family: "Montserrat", "source-han-sans-simplified-c", sans-serif;
+	font-family: "Glyphica SC";
+	font-synthesis: none;
+	font-kerning: none;
+	font-feature-settings: "kern" 0, "liga" 0, "clig" 0;
 	min-height: 100%;
 	font-size: 16pt;
 	color: var(--imml-text);
@@ -67,8 +80,9 @@ body {
 }
 
 h1 {
-	font-family: "Grand-Regular";
+	font-family: "Glyphica SC";
 	font-size: 36pt;
+	font-weight: 600;
 }
 
 .pages {
@@ -84,7 +98,8 @@ h1 {
 }
 
 .page .breadcrumbs {
-	font-family: monospace;
+	font-family: "Glyphica SC";
+	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 12pt;
 }
@@ -120,7 +135,8 @@ code {
 	background: var(--imml-text-inverse);
 	border-radius: 0.25em;
 	padding: 0em 0.25em;
-	font-family: monospace;
+	font-family: "Glyphica SC";
+	font-weight: 600;
 	display: inline-block;
 }
 

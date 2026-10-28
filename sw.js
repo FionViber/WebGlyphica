@@ -1,4 +1,4 @@
-const CACHE_NAME = 'glyphica-offline-v46';
+const CACHE_NAME = 'glyphica-offline-v50';
 const RUNTIME_FILES = [
 	'scripts/audialis.js',
 	'scripts/data-stream.js',
