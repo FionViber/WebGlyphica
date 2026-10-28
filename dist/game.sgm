@@ -1,0 +1,8 @@
+version=2
+api=3
+name=Glyphica
+author=AliasBLACK
+description=
+saveID=aliasblack.glyphica
+resolution=1024x576
+main=scripts/core/main.js

@@ -1,0 +1,31 @@
+{
+	// Default Main Menu BGM.
+	"default_menu":
+	{
+		"category": "menu",
+		"bgm": "gp_bgm_menu_02"
+	},
+
+	// Default in-game bgm set.
+	"default_game":
+
+	{
+		"category": "game",
+		"bgm": "gp_bgm_ingame_02",
+		"doubleDamage": "gp_bgm_2x_02",
+		"freeze": "gp_bgm_freeze_02",
+		"emergencyProtocol": "eproto_loop",
+		"levelUpScreen": "gp_bgm_loot_upgrade_02",
+		"lootScreen": "gp_bgm_loot_upgrade_02",
+		"evolutionScreen": "gp_bgm_loot_upgrade_02",
+		"summaryScreen": "gp_bgm_loot_upgrade_02",
+
+	// =========
+	// BOSS
+	// =========
+
+		"boss_cipher": "gp_bgm_cipher",
+		"boss_poet": "gp_bgm_poet",
+		"boss_cerberus": "gp_bgm_cerberus"
+	}
+}

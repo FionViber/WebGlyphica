@@ -1,0 +1,161 @@
+/* Do not edit block start */
+/* ======================= */
+#imml a.portal:not(.inline) {
+	display: block;
+}
+
+#imml .pages>.page:target~.page:last-child,
+#imml .pages>.page {
+	display: none;
+}
+
+#imml .pages> :last-child,
+#imml .pages>.page:target {
+	display: block;
+}
+
+#imml .pages> :last-child .breadcrumbs {
+	visibility: hidden;
+}
+/* ===================== */
+/* Do not edit block end */
+
+:root {
+	--imml-text-light: #333333;
+	--imml-text-dark: #727272;
+	--imml-background-light: #ffffff;
+	--imml-background-dark: #f0f0e6;
+	--imml-accent-light: dodgerblue;
+	--imml-accent-dark: #9e5b60;
+}
+
+:root {
+	--imml-background: var(--imml-background-light);
+	--imml-text: var(--imml-text-light);
+	--imml-text-inverse: var(--imml-text-dark);
+	--imml-accent: var(--imml-accent-light);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--imml-background: var(--imml-background-dark);
+		--imml-text: var(--imml-text-dark);
+		--imml-text-inverse: var(--imml-text-light);
+		--imml-accent: var(--imml-accent-dark);
+	}
+}
+
+@font-face {
+    font-family: "Grand-Regular";
+	size-adjust: 135%;
+    src: url("fonts/NTF-Grand-Regular.ttf");
+}
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: "Montserrat", "source-han-sans-simplified-c", sans-serif;
+	min-height: 100%;
+	font-size: 16pt;
+	color: var(--imml-text);
+	background: var(--imml-background);
+}
+
+h1 {
+	font-family: "Grand-Regular";
+	font-size: 36pt;
+}
+
+.pages {
+	margin: 0 auto;
+	max-width: 800px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.pages .page {
+	padding-top: 2em;
+	padding-bottom: 10em;
+}
+
+.page .breadcrumbs {
+	font-family: monospace;
+	text-transform: uppercase;
+	font-size: 12pt;
+}
+
+p {
+	line-height: 30px;
+}
+
+a {
+	width: fit-content;
+	color: var(--imml-accent);
+	border-bottom: 1px dotted var(--imml-accent);
+	text-decoration: none;
+}
+
+hr {
+	border-style: solid;
+	border-bottom: 1px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+blockquote {
+	border-left: 0.5em solid var(--imml-text-inverse);
+	padding: 0 1em;
+}
+
+blockquote p {
+	font-style: italic;
+}
+
+code {
+	background: var(--imml-text-inverse);
+	border-radius: 0.25em;
+	padding: 0em 0.25em;
+	font-family: monospace;
+	display: inline-block;
+}
+
+pre code {
+	padding: 0.5em 0.5em;
+}
+
+pre {
+	overflow-x: auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+table {
+	margin-top: 0.25em;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+thead {
+	text-align: left;
+	font-weight: bold;
+}
+
+thead tr {
+	border-bottom: 1px solid;
+}
+
+tr {
+	border-bottom: 1px dashed;
+}
+
+td,
+th {
+	padding: 4px;
+}

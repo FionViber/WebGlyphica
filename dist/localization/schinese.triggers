@@ -1,0 +1,36 @@
+{
+	"schinese": {
+		"Spectre": [
+			"a",
+			"e",
+			"o"
+		],
+		"Hunter": [
+			"i",
+			"o",
+			"u",
+			"v"
+		],
+		"Tesla": [
+			"b",
+			"c",
+			"d"
+		],
+		"Blade": [
+			"j",
+			"k",
+			"l"
+		],
+		"Minefield": [
+			"f",
+			"g",
+			"h"
+		],
+		"Extra_1": [
+			"z"
+		],
+		"Extra_2": [
+			"y"
+		]
+	}
+}

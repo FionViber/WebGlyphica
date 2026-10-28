@@ -1,0 +1,25 @@
+UNRESTRICTED GAME LICENSE
+
+Copyright (c) 2026 [Copyright Holder]
+
+1. OWNERSHIP
+
+The Copyright Holder retains all right, title, and interest in and to the original version of this game, including all copyrights and other intellectual property rights in its original source code, compiled code, artwork, music, sound effects, audiovisual content, text, game data, documentation, and other original materials (collectively, the “Game”). This License grants permission to use the Game but does not transfer ownership of the original Game.
+
+2. GRANT OF PERMISSION
+
+Permission is hereby granted, free of charge, to any person to use, play, run, reproduce, copy, share, publish, display, perform, distribute, redistribute, modify, adapt, translate, compile, decompile, reverse engineer, combine, create derivative works of, sell, sublicense, and otherwise exploit the Game, in whole or in part, for any purpose, including commercial purposes, in any medium or format. This permission is worldwide, perpetual, irrevocable, nonexclusive, transferable, sublicensable, and royalty-free.
+
+No payment, prior approval, attribution, copyright notice, retention of this License, or disclosure of source code or modifications is required. Modified versions and derivative works may be distributed under terms of the distributor’s choosing, without limiting the permissions already granted under this License for the original Game.
+
+3. DISCLAIMER OF WARRANTIES
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE GAME IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT ANY REPRESENTATION OR WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, RELIABILITY, ACCURACY, SECURITY, OR UNINTERRUPTED OPERATION.
+
+4. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE COPYRIGHT HOLDER OR THE GAME’S AUTHORS, CREATORS, OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, LOSS, DAMAGE, OR OTHER LIABILITY ARISING OUT OF OR RELATING TO THE GAME OR ITS USE, MODIFICATION, COMPILATION, DISTRIBUTION, OR OTHER EXPLOITATION, WHETHER DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE, AND WHETHER ARISING IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE.
+
+5. THIRD-PARTY MATERIALS
+
+This License applies only to portions of the Game that the Copyright Holder owns or has the legal authority to license. Third-party components, if any, remain subject to their applicable license terms.

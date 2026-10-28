@@ -1,0 +1,236 @@
+{
+	// =========
+	// INTERFACE
+	// =========
+
+	// Main Menu
+	"main_menu_title_fade_out": "gp_ui_logo_fade",
+	"main_menu_intro": "gp_ui_main_menu_intro",
+	"main_menu_extro": "",
+	"main_menu_navigation_hover": "gp_ui_main_menu_hover",
+	"main_menu_navigation_click": "gp_ui_main_menu_click",
+	"main_menu_turret_hover": "gp_ui_main_menu_hover",
+	"main_menu_turret_click_ok": "gp_ui_main_menu_turret_click_ok",
+	"main_menu_turret_click_error": "gp_ui_main_menu_click_error",
+	"main_menu_turret_page_flip": "gp_ui_main_menu_click",
+	"main_menu_augment_hover": "gp_ui_main_menu_hover",
+	"main_menu_augment_click_ok": "gp_ui_main_menu_augment_click_ok",
+	"main_menu_augment_click_reset": "gp_ui_main_menu_augment_reset",
+	"main_menu_augment_click_error": "gp_ui_main_menu_click_error",
+	"main_menu_augment_page_flip": "gp_ui_main_menu_click",
+	"main_menu_options_controller_hover": "gp_ui_main_menu_hover",
+	"main_menu_options_change_value": "gp_ui_main_menu_click",
+	"main_menu_confirmation_popup_intro": "",
+	"main_menu_confirmation_popup_extro": "",
+	"main_menu_confirmation_hover": "gp_ui_main_menu_hover",
+	"main_menu_confirmation_click": "gp_ui_main_menu_click",
+	"main_menu_omen_select_intro": "",
+	"main_menu_omen_select_extro": "",
+
+	// Difficulty
+	"difficulty_intro": "",		// Not currently used.
+	"difficulty_extro": "",		// Not currently used.
+	"difficulty_hover": "gp_ui_main_menu_difficulty_hover",
+	"difficulty_click_ok": "gp_ui_main_menu_difficulty_click_ok",
+	"difficulty_click_error": "gp_ui_main_menu_difficulty_click_error",
+
+	// In-game
+	"typing_ok": ["gp_ui_type_correct_01","gp_ui_type_correct_02","gp_ui_type_correct_03","gp_ui_type_correct_04"],
+	"typing_error": "gp_ui_type_error",		// Played on mistype.
+	"typing_scapegoat": ["gp_ui_type_correct_01","gp_ui_type_correct_02","gp_ui_type_correct_03","gp_ui_type_correct_04"],
+	"word_complete": "gp_ui_type_complete",
+	"double_word_complete": "",
+	"take_damage": "gp_ui_get_damage",
+	"level_up": "gp_ui_levelup",
+	"reroll": "gp_ui_reroll",
+	"evolution_complete": "gp_ui_levelup",
+	"upgrade_screen_intro": ["gp_ui_ingame_outro_01","gp_ui_ingame_outro_02","gp_ui_ingame_outro_03","gp_ui_ingame_outro_04","gp_ui_ingame_outro_05"],
+	"upgrade_screen_extro":  ["gp_ui_ingame_intro_01","gp_ui_ingame_intro_02","gp_ui_ingame_intro_03","gp_ui_ingame_intro_04","gp_ui_ingame_intro_05"],
+	"evolution_complete_intro": ["gp_ui_ingame_outro_01","gp_ui_ingame_outro_02","gp_ui_ingame_outro_03","gp_ui_ingame_outro_04","gp_ui_ingame_outro_05"],
+	"evolution_complete_extro": ["gp_ui_ingame_intro_01","gp_ui_ingame_intro_02","gp_ui_ingame_intro_03","gp_ui_ingame_intro_04","gp_ui_ingame_intro_05"],
+	"weapon_details_intro": "",
+	"weapon_details_extro": "",
+	"weapon_details_change_weapon": "",
+	"loot_option_intro": ["gp_ui_ingame_outro_01","gp_ui_ingame_outro_02","gp_ui_ingame_outro_03","gp_ui_ingame_outro_04","gp_ui_ingame_outro_05"],		// Plays once per loot item sliding in.
+	"loot_option_extro": ["gp_ui_ingame_intro_01","gp_ui_ingame_intro_02","gp_ui_ingame_intro_03","gp_ui_ingame_intro_04","gp_ui_ingame_intro_05"],		// Plays once per loot item sliding out.
+	"main_turret_destroyed": "gp_ui_get_damage",
+	"summary_screen_intro": "",
+	"summary_screen_extro": "gp_2x_stop",
+	"summary_screen_button_hover": "gp_ui_main_menu_hover",
+	"summary_screen_button_click": "gp_ui_main_menu_click",
+	"pause_menu_button_hover": "gp_ui_main_menu_hover",
+	"pause_menu_button_click": "gp_ui_main_menu_click",
+	"pause_menu_intro": "",
+	"pause_menu_extro": "",
+	"trial_success": "gp_stinger_trial_success",
+
+	// =======
+	// BOSS
+	// =======
+
+	"boss_type": ["gp_sfx_boss_type_01","gp_sfx_boss_type_02","gp_sfx_boss_type_03","gp_sfx_boss_type_04","gp_sfx_boss_type_05","gp_sfx_boss_type_06","gp_sfx_boss_type_07","gp_sfx_boss_type_08"],  // Plays once per boss letter typed.
+	"boss_countdown_0": "gp_sfx_boss_countdown_zero",
+	"boss_countdown_1": "gp_sfx_boss_countdown_1",
+	"boss_countdown_2": "gp_sfx_boss_countdown_2",
+	"boss_countdown_3": "gp_sfx_boss_countdown_3",
+	"boss_countdown_4": "gp_sfx_boss_countdown_4",
+	"boss_countdown_5": "gp_sfx_boss_countdown_5",
+	"boss_countdown_6": "gp_sfx_boss_countdown_6",
+	"boss_countdown_7": "gp_sfx_boss_countdown_7",
+	"boss_countdown_8": "gp_sfx_boss_countdown_8",
+	"boss_countdown_9": "gp_sfx_boss_countdown_9",
+	"boss_countdown_10": "gp_sfx_boss_countdown_10",
+	"boss_appear": "gp_sfx_boss_appear",        // Plays after countdown timer reaches zero
+	"cipher_shuffle": "gp_sfx_cipher_shuffle",  // Plays when cipher's own letters gets shuffled to a new set
+	"poet_lock": "gp_sfx_poet_lock",  // 2D sfx, plays when the poet locks word (at the instant where the word gets locked)
+
+	// ========
+	// POWERUPS
+	// ========
+
+	"no_mistypes_increment": "", // Perfect Input
+	"no_mistypes_stop": "",
+	"blitz_increment": "gp_ui_blitz", // Word Rush
+	"blitz_stop": "gp_ui_pi_blitz_stop",
+	"freeze_start": "gp_freeze_start",
+	"freeze_stop": "gp_freeze_stop",
+	"double_damage_start": "gp_2x_start",
+	"double_damage_stop": "gp_2x_stop",
+	"scapegoat" : "gp_sfx_scapegoat_01,gp_sfx_scapegoat_02,gp_sfx_scapegoat_03,gp_sfx_scapegoat_04,gp_sfx_scapegoat_05",
+
+	// =======
+	// PICKUPS
+	// =======
+
+	"pickup_coins": ["gp_ui_pickup_01","gp_ui_pickup_02","gp_ui_pickup_03","gp_ui_pickup_04"],
+	"pickup_health": ["gp_ui_pickup_05","gp_ui_pickup_06"],
+	"pickup_reroll": "gp_ui_pickup_reroll",
+	"pickup_shield": "gp_ui_pickup_shield",
+	"pickup_shield_destroyed": "gp_sfx_shield_destroyed",
+
+	// =======
+	// WEAPONS
+	// =======
+
+	// Splatter Shot
+	"splattershot_fire": ["gp_sfx_sshot_fire_01","gp_sfx_sshot_fire_02","gp_sfx_sshot_fire_03","gp_sfx_sshot_fire_04"],
+	"splattershot_hit_normal": ["gp_sfx_sshot_hit_01","gp_sfx_sshot_hit_02","gp_sfx_sshot_hit_03"],
+	"splattershot_hit_crit": "gp_sfx_sshot_hit_crit",
+	"splattershot_splatter": ["gp_sfx_sshot_splatter_01","gp_sfx_sshot_splatter_02","gp_sfx_sshot_splatter_03","gp_sfx_sshot_splatter_04","gp_sfx_sshot_splatter_05","gp_sfx_sshot_splatter_06"],
+	"splattershot_zone_start": ["gp_sfx_sshot_zone_start_01","gp_sfx_sshot_zone_start_02","gp_sfx_sshot_zone_start_03","gp_sfx_sshot_zone_start_04","gp_sfx_sshot_zone_start_05"],
+	"splattershot_zone_loop": ["gp_sfx_sshot_zone_loop_01","gp_sfx_sshot_zone_loop_02","gp_sfx_sshot_zone_loop_03","gp_sfx_sshot_zone_loop_04","gp_sfx_sshot_zone_loop_05"],
+	"splattershot_zone_kill": ["gp_sfx_sshot_destroyed_01","gp_sfx_sshot_destroyed_02","gp_sfx_sshot_destroyed_03","gp_sfx_sshot_destroyed_04","gp_sfx_sshot_destroyed_05","gp_sfx_sshot_destroyed_06"],
+	"splattershot_bubble_spawn": ["gp_sfx_bubble_spawn_01","gp_sfx_bubble_spawn_02","gp_sfx_bubble_spawn_03","gp_sfx_bubble_spawn_04","gp_sfx_bubble_spawn_05"],
+	"splattershot_bubble_burst": ["gp_sfx_bubble_burst_01","gp_sfx_bubble_burst_02","gp_sfx_bubble_burst_03"],
+	"splattershot_bubble_splatter": ["gp_sfx_sshot_splatter_01","gp_sfx_sshot_splatter_02","gp_sfx_sshot_splatter_03","gp_sfx_sshot_splatter_04","gp_sfx_sshot_splatter_05","gp_sfx_sshot_splatter_06"],
+
+	// Barrage
+	"barrage_fire": ["gp_sfx_barrage_fire_01","gp_sfx_barrage_fire_02","gp_sfx_barrage_fire_03","gp_sfx_barrage_fire_04","gp_sfx_barrage_fire_05"],  // Plays when barrage fires (2D-one sound for all missiles)
+	"barrage_explode": ["gp_sfx_barrage_explode_01","gp_sfx_barrage_explode_02","gp_sfx_barrage_explode_03","gp_sfx_barrage_explode_04","gp_sfx_barrage_explode_05","gp_sfx_barrage_explode_06"], // Plays when barrage explodes - 3D individual explosions 
+	"barrage_burrow": ["gp_sfx_barrage_burrow_01","gp_sfx_barrage_burrow_02","gp_sfx_barrage_burrow_03","gp_sfx_barrage_burrow_04","gp_sfx_barrage_burrow_05","gp_sfx_barrage_burrow_06","gp_sfx_barrage_burrow_07"], // Plays when barrage sticks to the ground - - 3D individual sfx for each x
+	"barrage_reload": "gp_sfx_barrage_reload_full", // Plays when reload bar is full
+	"barrage_reload_empty":	"gp_sfx_barrage_reload_empty", // Plays when reload bar hits 1 unit
+	"barrage_reload_ammobox": "gp_sfx_barrage_reload_ammobox", // Plays when player picks up ammo box
+
+	// Heat Ray
+	"heatray_damage": ["gp_sfx_heatray_damage_loop_01","gp_sfx_heatray_damage_loop_02","gp_sfx_heatray_damage_loop_03","gp_sfx_heatray_damage_loop_04","gp_sfx_heatray_damage_loop_05"],
+	"heatray_destroy_enemy": ["gp_sfx_heatray_destroy_enemy_01","gp_sfx_heatray_destroy_enemy_02","gp_sfx_heatray_destroy_enemy_03","gp_sfx_heatray_destroy_enemy_04"],
+
+	// Repeater
+	"repeater_shot": ["gp_sfx_repeater_01","gp_sfx_repeater_02","gp_sfx_repeater_03","gp_sfx_repeater_04","gp_sfx_repeater_05","gp_sfx_repeater_06"],
+	"repeater_hit_normal": ["gp_sfx_hit_01","gp_sfx_hit_02","gp_sfx_hit_03"],
+	"repeater_hit_crit": "gp_sfx_critical_hit",
+	"repeater_ricochet_normal": ["gp_sfx_repeater_ricochet_01","gp_sfx_repeater_ricochet_02","gp_sfx_repeater_ricochet_03","gp_sfx_repeater_ricochet_04","gp_sfx_repeater_ricochet_05"],
+	"repeater_ricochet_crit": "gp_sfx_critical_hit",
+	"repeater_shotgun": ["gp_sfx_repeater_shotgun_01","gp_sfx_repeater_shotgun_02","gp_sfx_repeater_shotgun_03","gp_sfx_repeater_shotgun_04","gp_sfx_repeater_shotgun_05","gp_sfx_repeater_shotgun_06"],
+
+	// Tesla
+	"tesla_spawn": ["gp_ui_spawn_tesla_01","gp_ui_spawn_tesla_02","gp_ui_spawn_tesla_03","gp_ui_spawn_tesla_04","gp_ui_spawn_tesla_05","gp_ui_spawn_tesla_06"],
+	"tesla_electric_start": ["gp_sfx_hit_01","gp_sfx_hit_02","gp_sfx_hit_03"],
+	"tesla_electric_loop": "gp_sfx_tesla_shot_loop",
+
+	// Blade Trap
+	"blade_spawn": ["gp_ui_spawn_bladetrap_01","gp_ui_spawn_bladetrap_02","gp_ui_spawn_bladetrap_03","gp_ui_spawn_bladetrap_04","gp_ui_spawn_bladetrap_05","gp_ui_spawn_bladetrap_06"],
+	"blade_hit_normal": ["gp_sfx_hit_01","gp_sfx_hit_02","gp_sfx_hit_03"],
+	"blade_hit_crit": "gp_sfx_chop_blade_hit",
+
+	// Chopper
+	"chopper_spawn": ["gp_ui_spawn_chopper_01","gp_ui_spawn_chopper_02","gp_ui_spawn_chopper_03","gp_ui_spawn_chopper_04","gp_ui_spawn_chopper_05","gp_ui_spawn_chopper_06"],
+	"chopper_hit_normal": ["gp_sfx_hit_01","gp_sfx_hit_02","gp_sfx_hit_03"],
+	"chopper_hit_crit": "gp_sfx_chop_blade_hit",
+	
+	// Oscillator
+	"oscillator_spawn": "gp_ui_spawn_oscillator",
+	"oscillator_hit_normal": ["gp_sfx_oscillator_normal_hit_01","gp_sfx_oscillator_normal_hit_02","gp_sfx_oscillator_normal_hit_03","gp_sfx_oscillator_normal_hit_04","gp_sfx_oscillator_normal_hit_05","gp_sfx_oscillator_normal_hit_06"],
+	"oscillator_hit_crit": "gp_sfx_oscillator_hit",
+
+	// Spectre
+	"spectre_spawn": ["gp_ui_spawn_spectre_01","gp_ui_spawn_spectre_02","gp_ui_spawn_spectre_03","gp_ui_spawn_spectre_04","gp_ui_spawn_spectre_05","gp_ui_spawn_spectre_06"],
+	"spectre_hit_normal": ["gp_sfx_hit_01","gp_sfx_hit_02","gp_sfx_hit_03"],
+	"spectre_hit_crit": "gp_sfx_spectre_hit",
+
+	// Hunter
+	"hunter_spawn": ["gp_ui_spawn_hunter_01","gp_ui_spawn_hunter_02","gp_ui_spawn_hunter_03","gp_ui_spawn_hunter_04","gp_ui_spawn_hunter_05","gp_ui_spawn_hunter_06"],
+	"hunter_electric_start": "",
+	"hunter_electric_loop": "gp_sfx_hunter_shot",
+	"hunter_shot": ["gp_sfx_hunter_electrified_shot_01","gp_sfx_hunter_electrified_shot_02","gp_sfx_hunter_electrified_shot_03"],	
+	"hunter_hit_normal": ["gp_sfx_hunter_electrified_chain_hit_01","gp_sfx_hunter_electrified_chain_hit_02","gp_sfx_hunter_electrified_chain_hit_03"]	,
+	"hunter_hit_crit": "gp_sfx_critical_hit",	
+	"hunter_chain_normal": ["gp_sfx_hunter_electrified_chain_hit_01","gp_sfx_hunter_electrified_chain_hit_02","gp_sfx_hunter_electrified_chain_hit_03"],	// Electrified Bolts.
+	"hunter_chain_crit": "gp_sfx_critical_hit",	
+
+	// Sentry
+	"sentry_shot": ["gp_sfx_sentry_01","gp_sfx_sentry_02"],
+	"sentry_spawn": "gp_sfx_spawn_sentry",
+	"sentry_hit_normal": ["gp_sfx_hit_01","gp_sfx_hit_02","gp_sfx_hit_03"],
+	"sentry_hit_crit": "gp_sfx_critical_hit",
+	"sentry_emergencyProtocol_start": "gp_sfx_eproto_start",
+	"sentry_emergencyProtocol_stop": "gp_sfx_eproto_stop",
+
+	// Meteor
+	"meteor_pickup_spawn": ["gp_ui_spawn_meteor_01","gp_ui_spawn_meteor_02","gp_ui_spawn_meteor_03","gp_ui_spawn_meteor_04","gp_ui_spawn_meteor_05"],
+	"meteor_target_spawn": "gp_sfx_pickup_meteor_01",
+	"meteor_fall_start": ["gp_sfx_fall_meteor_01","gp_sfx_fall_meteor_02","gp_sfx_fall_meteor_03","gp_sfx_fall_meteor_04","gp_sfx_fall_meteor_05","gp_sfx_fall_meteor_06","gp_sfx_fall_meteor_07","gp_sfx_fall_meteor_08","gp_sfx_fall_meteor_08","gp_sfx_fall_meteor_10"],
+	"meteor_explode": ["gp_sfx_meteor_explosion_01","gp_sfx_meteor_explosion_02","gp_sfx_meteor_explosion_03","gp_sfx_meteor_explosion_04","gp_sfx_meteor_explosion_05","gp_sfx_meteor_explosion_06","gp_sfx_meteor_explosion_07","gp_sfx_meteor_explosion_08"],
+
+	// Minefield
+	"minefield_spawn": ["gp_ui_spawn_minefield_01","gp_ui_spawn_minefield_02","gp_ui_spawn_minefield_03","gp_ui_spawn_minefield_04","gp_ui_spawn_minefield_05","gp_ui_spawn_minefield_06"],
+	"minefield_explode": ["gp_sfx_explosion_01","gp_sfx_explosion_02","gp_sfx_explosion_03","gp_sfx_explosion_04","gp_sfx_explosion_05","gp_sfx_explosion_06","gp_sfx_explosion_07","gp_sfx_explosion_08"],
+
+	// Firestorm
+	"firestorm_spawn": "gp_ui_spawn_firestorm",
+	"firestorm_ready": "gp_sfx_firestorm_ready",
+	"firestorm_fire": "gp_sfx_firestorm_shot_01",
+	"firestorm_explode": ["gp_sfx_explosion_01","gp_sfx_explosion_02","gp_sfx_explosion_03","gp_sfx_explosion_04","gp_sfx_explosion_05","gp_sfx_explosion_06","gp_sfx_explosion_07","gp_sfx_explosion_08"],
+
+	// Explosions. (Minefield and Dynamite)
+	"explosion_hit_normal": ["gp_sfx_hit_01","gp_sfx_hit_02","gp_sfx_hit_03"],
+	"explosion_hit_crit": "gp_sfx_critical_hit",
+
+	// =======
+	// ENEMIES
+	// =======
+
+	// Enemy hit sound.
+	"enemy_hit_drone": "",
+	"enemy_hit_drone2": "",
+	"enemy_hit_drone3": "",
+	"enemy_hit_drone4": "",
+	"enemy_hit_shielddrone": ["gp_sfx_enhit_shielddrone_01","gp_sfx_enhit_shielddrone_02","gp_sfx_enhit_shielddrone_03","gp_sfx_enhit_shielddrone_04","gp_sfx_enhit_shielddrone_05"],
+	"enemy_hit_shielddrone2": ["gp_sfx_enhit_shielddrone_01","gp_sfx_enhit_shielddrone_02","gp_sfx_enhit_shielddrone_03","gp_sfx_enhit_shielddrone_04","gp_sfx_enhit_shielddrone_05"],
+	"enemy_hit_shielddrone3": ["gp_sfx_enhit_shielddrone_01","gp_sfx_enhit_shielddrone_02","gp_sfx_enhit_shielddrone_03","gp_sfx_enhit_shielddrone_04","gp_sfx_enhit_shielddrone_05"],
+	"enemy_hit_stalker": ["gp_sfx_enhit_stalker_01","gp_sfx_enhit_stalker_02","gp_sfx_enhit_stalker_03","gp_sfx_enhit_stalker_04","gp_sfx_enhit_stalker_05"],
+	"enemy_hit_shooter": ["gp_sfx_enhit_shooter_01","gp_sfx_enhit_shooter_02","gp_sfx_enhit_shooter_03","gp_sfx_enhit_shooter_04","gp_sfx_enhit_shooter_05"],
+	"enemy_hit_shooter2": ["gp_sfx_enhit_shooter_01","gp_sfx_enhit_shooter_02","gp_sfx_enhit_shooter_03","gp_sfx_enhit_shooter_04","gp_sfx_enhit_shooter_05"],
+	"enemy_hit_shootercube": ["gp_sfx_enhit_shootercubes_01","gp_sfx_enhit_shootercubes_02","gp_sfx_enhit_shootercubes_03","gp_sfx_enhit_shootercubes_04","gp_sfx_enhit_shootercubes_05"],
+	"enemy_hit_shootercube2": ["gp_sfx_enhit_shootercubes_01","gp_sfx_enhit_shootercubes_02","gp_sfx_enhit_shootercubes_03","gp_sfx_enhit_shootercubes_04","gp_sfx_enhit_shootercubes_05"],
+	"enemy_hit_warder": ["gp_sfx_enhit_warder_01","gp_sfx_enhit_warder_02","gp_sfx_enhit_warder_03","gp_sfx_enhit_warder_04","gp_sfx_enhit_warder_05"],
+	"enemy_hit_swarmer": ["gp_sfx_enhit_swarmer_01","gp_sfx_enhit_swarmer_02","gp_sfx_enhit_swarmer_03","gp_sfx_enhit_swarmer_04","gp_sfx_enhit_swarmer_05"],
+	"enemy_hit_swarmerchildactive": ["gp_sfx_enhit_swarmer_01","gp_sfx_enhit_swarmer_02","gp_sfx_enhit_swarmer_03","gp_sfx_enhit_swarmer_04","gp_sfx_enhit_swarmer_05"],
+
+	// ========
+	// AUGMENTS
+	// ========
+
+	"darkRelay_hit": ["gp_sfx_hunter_electrified_chain_hit_01","gp_sfx_hunter_electrified_chain_hit_02","gp_sfx_hunter_electrified_chain_hit_03"]
+}
